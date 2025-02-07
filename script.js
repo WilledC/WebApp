@@ -4,7 +4,7 @@ function login() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (username === "admin" && password === "1234567890") {
+    if (username === "adrian" && password === "elmejor1234") {
         document.getElementById('login-section').style.display = 'none';
         document.getElementById('game-section').style.display = 'block';
     } else {
